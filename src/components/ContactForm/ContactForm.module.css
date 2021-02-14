@@ -1,0 +1,75 @@
+.containerForm {
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgb(36, 104, 75);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px;
+}
+
+.labelForm {
+    display: inline-flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.labelForm + .labelForm {
+    margin-top: 20px;
+}
+
+.inputForm {
+    padding: 15px;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid  rgb(211, 210, 210);
+    border-radius: 5px;
+}
+
+.inputForm:focus {
+    box-shadow: 0 0 5px 3px rgb(110, 206, 250);
+    border: none;
+    outline: none;
+}
+
+.btnForm {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 0.5px solid  rgb(211, 210, 210);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(4, 4, 146);
+    outline: none;
+    cursor: pointer;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateX(200%);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exitActive {
+  opacity: 1;
+  transform: translateX(100%);
+  transition: all 250ms linear;
+}

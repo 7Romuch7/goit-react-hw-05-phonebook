@@ -1,0 +1,32 @@
+.containerFilter {
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgb(36, 104, 75);
+}
+
+.titleFilter {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFilter {
+    padding: 15px;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: 1px solid  rgb(211, 210, 210);
+    border-radius: 5px;
+}
+
+.inputFilter:focus {
+    box-shadow: 0 0 5px 3px rgb(110, 206, 250);
+    border: none;
+    outline: none;
+}
+
+.titleFilter {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
